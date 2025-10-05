@@ -88,17 +88,24 @@
 .schools-card {
   background-image: url(images/for\ school\ pic.png);
 }
-
+.schools-card .btn.more{
+  color:#c56a67;
+}
+.companies-card .btn.more{
+   color:#ddd;
+}
 .card h2 {
   font-weight: 700;
   margin-bottom: 12px;
   font-size: 60px;
+  color: #ddd;
 }
 
 .card p {
   margin-bottom: 20px;
   line-height: 1.6;
     font-size: 18px;
+    color: #ddd;
 
 }
 
@@ -145,7 +152,7 @@
  }
  .nav{
   position: absolute;
-  top:1895px;
+  top:1660px;
   margin-left: 0px;
   display: flex;
 
@@ -156,19 +163,34 @@
 
 .section1{
  background-image: url(images/mobilep.png);
- padding: 250px 12px;
+ padding:110px 12px;
+ opacity: 0.6;
+ 
 }
+
 .section1 h1{
-  font-size: 35px;
+  margin-top: 255px;
+ 
+  font-size: 37px;
+  color: #014b0e;
 }
 .section1 p{
-  font-size: 13px;
+  font-size: 20px;
+  color: black;
 }
 .cards{
   display: block;
 }
 .card{
   padding: 30px;
+}
+.card h2{
+  font-size: 40px;
+  
+}
+.card p{
+  font-size: 15px;
+ 
 }
 .footer img{
   width:90%;
