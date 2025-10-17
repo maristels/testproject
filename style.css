@@ -165,15 +165,19 @@
   .header{
     display: block;
     text-align: center;
-    padding: 10px 0px;
   }
+  .nav .btn {
+  padding: 20px 0px;
+  font-size: 12px;
+  }
+  
   .logo{
     width: 100%;
   }
 
   .nav{
    position: absolute;
-   bottom: -7%;
+   bottom: 0%;
     display: flex;
     margin-top: 100px;
     width: 100%;
@@ -188,7 +192,7 @@
 
   }
   .section1 .text{
-    top: 150px;
+    top: 120px;
    
     margin: 20px 40px;
   }
