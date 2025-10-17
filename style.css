@@ -165,6 +165,7 @@
   .header{
     display: block;
     text-align: center;
+    padding: 10px 0px;
   }
   .logo{
     width: 100%;
